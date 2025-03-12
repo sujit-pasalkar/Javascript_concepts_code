@@ -1,5 +1,4 @@
 // mine version -(could need to optimize more)
-
 function computeFactorial(){
     let cache = new Map();
     return (num) =>{
@@ -26,3 +25,15 @@ console.log(factorial(5));
 
 
 // todo: solve using recursion and memoization
+// Q factorial
+
+function facto(n){
+    if(n == 1 || n ==0){
+        return 1;
+    }else {
+        return n * facto(n-1)
+    }
+
+}
+
+console.log(facto(5))
