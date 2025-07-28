@@ -59,13 +59,19 @@ let res = subarraySum(arr, target);
 console.log(res.join(' '));
 
 
+// test practice code
 function test() {
     try {
         console.log('try test')
         throw new Error();
     }
-    catch(e) {
-        console.log('catch test',e)
+    catch(e) { // catch can work without passing (e)
+        console.log('catch test',e);
+        let arrObj = [{id:1,'name':'shreya'},{id:2,'name':'sujit'}];
+
+        for (const el of arrObj) {
+            
+        }
 
     }
 }
